@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\GrinAge\source\repos\Kursova 2\Kursova 2\main.cpp(641,3): warning C4060: оператор switch не содержит метку "case" или "default"
+C:\Users\GrinAge\source\repos\Kursova 2\Kursova 2\main.cpp(518): warning C4715: MainProcedure: значение возвращается не при всех путях выполнения
+  Kursova 2.vcxproj -> C:\Users\GrinAge\source\repos\Kursova 2\x64\Debug\Kursova 2.exe

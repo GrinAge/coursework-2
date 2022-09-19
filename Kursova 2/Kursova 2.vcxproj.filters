@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{a739af4a-75ab-44cd-ab93-0643291a5413}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="resource2.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Kursova 22.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bitmap1.bmp" />
+    <Image Include="bitmap2.bmp" />
+    <Image Include="..\bitmaps\floor_bitmap_50x50.bmp" />
+    <Image Include="bmp00001.bmp" />
+    <Image Include="bmp00002.bmp" />
+    <Image Include="bmp00003.bmp" />
+    <Image Include="bmp00004.bmp" />
+    <Image Include="bmp00005.bmp" />
+    <Image Include="bmp00006.bmp" />
+    <Image Include="bmp00007.bmp" />
+    <Image Include="bmp00008.bmp" />
+    <Image Include="bmp00009.bmp" />
+    <Image Include="bmp00010.bmp" />
+    <Image Include="bmp00011.bmp" />
+    <Image Include="bmp00012.bmp" />
+    <Image Include="bmp00013.bmp" />
+    <Image Include="bmp00014.bmp" />
+    <Image Include="bmp00015.bmp" />
+    <Image Include="bmp00016.bmp" />
+    <Image Include="bmp00017.bmp" />
+    <Image Include="bmp00018.bmp" />
+    <Image Include="bmp00019.bmp" />
+    <Image Include="bmp00020.bmp" />
+    <Image Include="bmp00021.bmp" />
+    <Image Include="number1.bmp" />
+    <Image Include="number2.bmp" />
+    <Image Include="number3.bmp" />
+    <Image Include="bmp00022.bmp" />
+    <Image Include="treasure.bmp" />
+    <Image Include="bmp00023.bmp" />
+    <Image Include="bigcrutc.bmp" />
+  </ItemGroup>
+</Project>

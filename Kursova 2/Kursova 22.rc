@@ -1,0 +1,260 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource2.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Русский (Россия) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource2.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_WALL                BITMAP                  "bitmap1.bmp"
+
+IDB_FLOOR               BITMAP                  "bmp00001.bmp"
+
+IDB_HOLE                BITMAP                  "bmp00002.bmp"
+
+IDB_FAKE_CHEST          BITMAP                  "bmp00003.bmp"
+
+IDB_TREASURE_CHEST      BITMAP                  "bmp00004.bmp"
+
+IDB_CROSSBOW            BITMAP                  "bmp00005.bmp"
+
+IDB_BEARTRAP            BITMAP                  "bmp00006.bmp"
+
+IDB_TEST                BITMAP                  "bmp00007.bmp"
+
+IDB_PLAYER_FRONT        BITMAP                  "bmp00008.bmp"
+
+IDB_PLAYER_BACK         BITMAP                  "bmp00009.bmp"
+
+IDB_PLAYER_LEFT         BITMAP                  "bitmap2.bmp"
+
+IDB_PLAYER_RIGHT        BITMAP                  "bmp00010.bmp"
+
+IDB_PLAYER_DOWN         BITMAP                  "bmp00011.bmp"
+
+IDB_ARROW               BITMAP                  "bmp00012.bmp"
+
+IDB_CRUTCH              BITMAP                  "bmp00013.bmp"
+
+IDB_BEARTRAP_CLOSED     BITMAP                  "bmp00014.bmp"
+
+IDB_FOG                 BITMAP                  "bmp00015.bmp"
+
+IDB_LOSE_SCREEN         BITMAP                  "bmp00016.bmp"
+
+IDB_WIN_SCREEN          BITMAP                  "bmp00017.bmp"
+
+IDB_TREASURE_CHEST_OPEN BITMAP                  "bmp00018.bmp"
+
+IDB_CHOOSE_SCREEN       BITMAP                  "bmp00019.bmp"
+
+IDB_BACKGROUND          BITMAP                  "bmp00020.bmp"
+
+IDB_NUMBER0             BITMAP                  "bmp00021.bmp"
+
+IDB_NUMBER1             BITMAP                  "number1.bmp"
+
+IDB_NUMBER2             BITMAP                  "number2.bmp"
+
+IDB_NUMBER3             BITMAP                  "number3.bmp"
+
+IDB_TREASUREICO1        BITMAP                  "bmp00022.bmp"
+
+IDB_TREASUREICO0        BITMAP                  "treasure.bmp"
+
+IDB_CRUTCHICO1          BITMAP                  "bmp00023.bmp"
+
+IDB_CRUTCHICO0          BITMAP                  "bigcrutc.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 231, 64
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Перший гравець, виберіть один з входів в лабіринт"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "1",ID_PLAYER1_BUTTON1,21,26,44,14
+    DEFPUSHBUTTON   "4",ID_PLAYER1_BUTTON4,164,26,46,14
+    DEFPUSHBUTTON   "2",ID_PLAYER1_BUTTON2,69,26,45,14
+    DEFPUSHBUTTON   "3",ID_PLAYER1_BUTTON3,117,26,45,14
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 231, 64
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Другий гравець, виберіть один з входів в лабіринт"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "1",ID_PLAYER2_BUTTON1,21,26,44,14
+    DEFPUSHBUTTON   "4",ID_PLAYER2_BUTTON4,164,26,46,14
+    DEFPUSHBUTTON   "2",ID_PLAYER2_BUTTON2,69,26,45,14
+    DEFPUSHBUTTON   "3",ID_PLAYER2_BUTTON3,117,26,45,14
+END
+
+IDD_RULES DIALOGEX 0, 0, 461, 205
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Поради"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "Клавіші керування гравця 1(2):\nW(U) - вверх\nA(H) - вправо\nS(J) - вниз\nD(K) - вліво\nF(L) - пригнутися\nE(I) - взаємодія\nQ(Y) – кидок світової гранати",IDC_STATIC,
+                    "Static",SS_LEFTNOWORDWRAP | WS_GROUP,7,7,447,69
+    LTEXT           "Метою гри є винести скарб з лабіринту швидше ніж суперник. Для цього треба знайти справжньою  скриню зі скарбом, натиснути клавішу взаємодії перед нею та дібратися до виходу(що є і входом) з лабіринту",IDC_STATIC,7,74,436,39
+    LTEXT           "Арбалет стріляє стрілами з певною періодичністю. Якщо в вас летить стріла – пригніться і дочекайтеся поки стріла пролетить над вами інакше програєте. Арбалет можна вимкнути, якщо провзаємодіяти з ним. ",IDC_STATIC,7,93,436,28
+    LTEXT           "Якщо ви потрапили в капкан тільки швидка реакція може врятувати вас від програшу, якщо тільки у вас не має милиці. ",IDC_STATIC,7,114,438,24
+    LTEXT           "Яма є входом до тунелю, якщо провзаємодіяти з нею то ви потрапите на інший його кінець",IDC_STATIC,7,127,439,21
+    LTEXT           "В лабіринті е хибні скарби, зазвичай вони ховають за собою прохід до тунелю але іноді в них можна знайти якийсь мотлох",IDC_STATIC,7,142,437,21
+    LTEXT           "Якщо ви нічого не бачите перед собою – киньте світлову гранату та освітіть свій шлях, але пам’ятайте, що у вас їх всього три",IDC_STATIC,7,160,438,18
+END
+
+IDD_ABOUT DIALOGEX 0, 0, 349, 64
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Про програму"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Виконав студент  групи КІУКі 20-6 Харківского національного університету радіоэлектроніки\nОстроушко Андріан Дем'янович",IDC_STATIC,7,7,325,31
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 224
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 224
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_RULES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 454
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 198
+    END
+
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 342
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 57
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG2 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_RULES AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_ABOUT AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    MENUITEM "Старт",                       ID_START
+    MENUITEM "Поради",                      ID_RULES
+    MENUITEM "Про програму",                ID_ABOUT
+END
+
+#endif    // Русский (Россия) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
